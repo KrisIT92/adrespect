@@ -11,9 +11,9 @@
 <body>
     <?php
     include("inc/genwalut.php");
-    //require("inc/config.php");
+    require("inc/config.php"); // plik konfiguracyjny zadania
     include("inc/pobieraniewalut.php");
-    //require("inc/zapisDanych.php")
+    require("inc/zapisDanych.php") 
 
     ?>
     <div class="container">
