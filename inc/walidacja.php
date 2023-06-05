@@ -1,3 +1,4 @@
+<?php
 class CurrencyConverter {
     private $dbConnection;
 
@@ -53,9 +54,9 @@ class CurrencyConverter {
 
 // Przykład użycia
 $dbHost = 'localhost';
-$dbUser = 'your_username';
-$dbPass = 'your_password';
-$dbName = 'your_database_name';
+$dbUser = 'root';
+$dbPass = 'mck01';
+$dbName = 'kursywalut';
 
 $dbConnection = new mysqli($dbHost, $dbUser, $dbPass, $dbName);
 
@@ -79,3 +80,4 @@ if (isset($result['error'])) {
 }
 
 $dbConnection->close();
+?>
